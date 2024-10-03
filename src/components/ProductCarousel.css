@@ -1,0 +1,23 @@
+/* ProductCarousel.css */
+
+/* Custom dot styles */
+.custom-dot {
+    width: 10px;
+    height: 10px;
+    margin: 0 8px;
+    background-color: #bbb;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .custom-dot-active {
+    background-color: #333;
+  }
+  #root > div > div > div > div:nth-child(3) > div > button.react-multiple-carousel__arrow.react-multiple-carousel__arrow--right{
+    display: none;
+  }  
+
+  #root > div > div > div > div:nth-child(3) > div > button.react-multiple-carousel__arrow.react-multiple-carousel__arrow--left{
+    display: none;
+  }

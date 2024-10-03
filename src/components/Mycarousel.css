@@ -1,0 +1,26 @@
+/* Mycarousel.css */
+
+.carousel-indicators {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 10px;
+  }
+  
+  .carousel-indicators li {
+    background-color: #ddd;  /* Default color for indicators */
+    border: 1px solid #777;  /* Border for indicators */
+    border-radius: 100%;  /* Make indicators circular */
+    display: inline-block;
+    width: -15px;  /* Set the width of each indicator */
+    height: -15px;  /* Set the height of each indicator */
+    margin-right: 5px;  /* Set the margin between indicators */
+    cursor: pointer;  /* Set cursor on indicators */
+  }
+  
+  .carousel-indicators .active {
+    background-color: red;  /* Color for active indicator */
+    border-color: #333;  /* Border color for active indicator */
+  }
+  
